@@ -11,9 +11,9 @@ server:
 # requests using zuul
 zuul:
   routes:
-    doctor-webservice: /api/doctors/**
-    patient-webservice: /api/patients/**
-    appointment-webservice: /api/appointments/**
+    doctor-webservice: /apiE/doctors/**
+    patient-webservice: /apiE/patients/**
+    appointment-webservice: /apiE/appointments/**
     web-portal: /**
 
 # Define the Eureka server that handles service registration
